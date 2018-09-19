@@ -26,3 +26,14 @@ por meio do sinal de -, apesar de podemos concatenar as duas por sinal de mais*/
 console.log('Gon, Killua, Kurapika'.split(',')); /*O parametro split, criar uma string
 com varios elementos, a partir de um parametro que indicara a divisao, no caso a ',' */
 
+/*Aprendendo a usar o templeat, para imprimir frases mais elaboradas*/
+console.log("vamos usar um templeate, ok?");
+var palavra = 'wish';
+var sentimento = 'desejo';
+
+//////////////////////////////////////////////////////////////////////////////////
+const template = ` testando: ${sentimento} = ${palavra} `;
+console.log(template);
+
+//Definição para template;
+
